@@ -18,7 +18,7 @@ func moveZeros(nums []int) {
 
 	copy(nums, res)
 
-	// this solution is more memory effective
+	// this solution is more memory efficient
 	// l := len(nums)
 	// res := nums
 	// for i := 0; i < len(res); i++ {
